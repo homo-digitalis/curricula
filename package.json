@@ -1,6 +1,6 @@
 {
   "name": "@homo-digitalis/curricula",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Curricula Provider for Homo Digitalis",
   "main": "./dist/index.js",
   "typings": "./dist/index.js",
@@ -9,7 +9,7 @@
     "test:cov": "jest --coverage",
     "git-init": "rm -rf .git && git init && git config --local credential.helper \"\" && git config --local user.email \"homo-digitalis@gmx.de\" && git config --local user.name \"homo-digitalis\"",
     "tslint": "tslint -p ./",
-    "bp": "npm run tslint && rm -rf ./dist && rm -rf ./node_modules && npm i --save && tsc && npm run test:cov && npm publish"
+    "bp": "npm run tslint && rm -rf ./dist && rm -rf ./node_modules && npm i --save && tsc && npm run test:cov && npm publish --access public"
   },
   "repository": {
     "type": "git",
